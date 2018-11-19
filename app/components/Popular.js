@@ -85,6 +85,7 @@ class Popular extends React.Component {
 
   render() {
     const { selectedLanguage, repos } = this.state;
+    console.log('test');
 
     return (
       <div>
